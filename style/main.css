@@ -26,6 +26,7 @@ section{
     top: 50%;
     right: 50%;
     transform: translate(50%, -50%);
+    box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.75);
 }
 
 .personal-information{
@@ -52,7 +53,7 @@ section{
 
     height: 12rem;
     width: 12rem;
-    border: 0.2rem solid black;
+    border: 0.2rem solid #FBFAF3;
     border-radius: 50%;
 
     display: block;
@@ -74,6 +75,7 @@ section{
 .personal-information a{
 
     text-decoration: none;
+    color: inherit
 }
 
 .personal-information .position{
@@ -83,9 +85,89 @@ section{
     margin-top: 2rem;
 }
 
+.personal-information .buttons{
+
+    text-align: center;
+    margin: 1rem;
+}
+
+.personal-information button{
+
+    border: 1px solid #FBFAF3;
+    padding: 0.8rem 1.8rem;
+    border-radius: 0.3rem;
+    font-size: 1.3rem;
+}
+
+.personal-information button:hover{
+
+    cursor: pointer;
+}
+
+.personal-information .primary-button{
+
+    background-color: #FBFAF3;
+    color: #000000;
+    margin-right: 0.5rem;
+
+}
+
+.personal-information .secondary-button{
+
+    background-color: transparent;
+    color: #FFFFFF;
+    margin-left: 0.5rem;
+
+}
+
+.social{
+
+    text-align: center;
+}
+
+.social a{
+
+    color: inherit;
+    text-decoration: none;
+}
+
+.social i{
+
+    font-size: 1.8rem;
+    margin: 1rem 0.4rem;
+}
+
+.fa-linkedin:hover {
+
+    color: #0A66C2;
+}
+
+.fa-github:hover {
+
+    color: #000000;
+}
+
 .skills{
 
     background-color: #4c1d28;
+    padding: 1.6rem 1rem;
+}
+
+.skills h2{
+
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    margin: 0.5rem;
+}
+
+.skills ul li{
+
+    display: inline-block;
+    font-size: 1.2rem;
+    border: 0.2rem solid #470919;
+    border-radius: 0.2rem;
+    padding: 0.4rem;
+    margin: 0.2rem 0.1rem;
 }
 
 li{
