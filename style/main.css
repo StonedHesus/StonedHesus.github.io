@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+html{
+
+    font-size: 10px;
+}
+
+body{
+
+    background-color: #3b2e31;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+}
+
+section{
+
+    width: 32rem;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+
+.personal-information{
+
+    background-color: #7F2239;
+    padding: 2.5rem 0 1.5rem 0;
+}
+
+.personal-information .tag{
+
+    background-color: #FEBB0B;
+    color: #231E39;
+    border: 1px solid #FEBB0B;
+    border-radius: 0.2rem;
+    font-size: 1.4rem;
+    padding: 0.1rem 0.7rem;
+    position: absolute;
+
+    top: 1.5rem;
+    left: 2rem;
+}
+
+.personal-information img{
+
+    height: 12rem;
+    width: 12rem;
+    border: 0.2rem solid black;
+    border-radius: 50%;
+
+    display: block;
+    margin: auto;
+}
+
+.personal-information .name{
+
+    text-align: center;
+}
+
+.personal-information .location{
+
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 0.2rem;
+}
+
+.personal-information a{
+
+    text-decoration: none;
+}
+
+.personal-information .position{
+
+    text-align: center;
+    font-size: 1.6rem;
+    margin-top: 2rem;
+}
+
+.skills{
+
+    background-color: #4c1d28;
+}
+
+li{
+
+    list-style: none;
+}
