@@ -1,0 +1,27 @@
+@media(max-width: 752px){
+
+    body .wrapper{
+
+        width: 85%;
+        height: 75%;
+    }
+}
+
+@media(max-width: 1080px) and (min-width: 753px){
+
+    body .wrapper{
+
+        width: 80%;
+        height: 62%;
+    }
+}
+
+@media(max-width: 375px){
+
+    body .wrapper{
+
+        height: 100%;
+        overflow-y: scroll;
+        margin: 0 auto;
+    }
+}
