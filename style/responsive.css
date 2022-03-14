@@ -28,11 +28,11 @@
     }
 }
 
-@media screen and (orientation:landscape){
+/*@media screen and (orientation:landscape){*/
 
-    body .wrapper .content{
+/*    body .wrapper .content{*/
 
-        height: 75%;
-        scroll-behavior: auto;
-    }
-}
+/*        height: 75%;*/
+/*        scroll-behavior: auto;*/
+/*    }*/
+/*}*/

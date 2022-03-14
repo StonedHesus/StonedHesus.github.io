@@ -129,6 +129,7 @@ section{
 
     text-align: center;
     margin: 1rem;
+    display: none;
 }
 
 .personal-information .blog-button{
