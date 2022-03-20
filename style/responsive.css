@@ -1,38 +1,45 @@
-@media(max-width: 752px){
+@media (max-width: 480px){
 
-    body .wrapper{
+    .wrapper{
 
-        width: 85%;
-        height: 75%;
+        width: 35rem !important;
     }
 }
 
-@media(max-width: 1080px) and (min-width: 753px){
+@media (min-width: 481px) and (max-width: 768px){
 
-    body .wrapper{
+    .wrapper{
 
-        width: 75%;
-        height: 85%;
-        scroll-behavior: auto;
-        overflow-y: scroll;
+     width: 50rem !important;
     }
 }
 
-@media(max-width: 375px){
+@media (min-width: 769px) and (max-width: 1279px){
 
-    body .wrapper{
 
-        height: 100%;
-        overflow-y: scroll;
-        margin: 0 auto;
+    .wrapper{
+
+        width: 60rem !important;
     }
 }
 
-/*@media screen and (orientation:landscape){*/
+@media (max-height: 800px){
 
-/*    body .wrapper .content{*/
+    .wrapper{
 
-/*        height: 75%;*/
-/*        scroll-behavior: auto;*/
-/*    }*/
-/*}*/
+        overflow: scroll;
+    }
+
+    form{
+
+        height: 50rem;
+    }
+}
+
+@media (min-height: 801px){
+
+    .wrapper{
+
+        height: 67rem;
+    }
+}
