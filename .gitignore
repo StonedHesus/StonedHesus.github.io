@@ -5,3 +5,6 @@
 .idea/
 
 # ReScript specific files
+
+# Node specific files
+node_modules/
