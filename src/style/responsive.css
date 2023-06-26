@@ -1,0 +1,45 @@
+@media (max-width: 480px){
+
+    .wrapper{
+
+        width: 35rem !important;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px){
+
+    .wrapper{
+
+     width: 50rem !important;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1279px){
+
+
+    .wrapper{
+
+        width: 60rem !important;
+    }
+}
+
+@media (max-height: 800px){
+
+    .wrapper{
+
+        overflow: scroll;
+    }
+
+    form{
+
+        height: 50rem;
+    }
+}
+
+@media (min-height: 801px){
+
+    .wrapper{
+
+        height: 67rem;
+    }
+}
