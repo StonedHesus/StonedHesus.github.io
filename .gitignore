@@ -1,0 +1,7 @@
+# VS Code specific files 
+.DS_Store
+
+# JetBrains specific files
+.idea/
+
+# ReScript specific files

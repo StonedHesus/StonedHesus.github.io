@@ -1,120 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content ="width=device-width, initial-scale=1.0">
-    <meta name="description" content="My name is Andrei-Paul Ionescu and I am a Sophomore student in Computer Science at
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			http-equiv="X-UA-Compatible"
+			content="IE=edge"
+		/>
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<meta
+			name="description"
+			content="My name is Andrei-Paul Ionescu and I am a Sophomore student in Computer Science at
     the University of Paris. My chief interests are software engineering, mathematics,
-    linguistics, quantum computing and machine learning.">
+    linguistics, quantum computing and machine learning."
+		/>
 
-    <title>Andrei-Paul Ionescu</title>
+		<title>Andrei-Paul Ionescu</title>
 
-    <link rel="shortcut icon" href >
-    <link rel="stylesheet" href="./style/main.css" type="text/css">
-    <link rel="stylesheet" href="./style/responsive.css" type="text/css">
+		<link
+			rel="shortcut icon"
+			href
+		/>
+		<link
+			rel="stylesheet"
+			href="./src/style/main.css"
+			type="text/css"
+		/>
+		<link
+			rel="stylesheet"
+			href="./src/style/responsive.css"
+			type="text/css"
+		/>
 
-    <script src="https://kit.fontawesome.com/3ba5977250.js" crossorigin="anonymous"></script>
-</head>
+		<script
+			src="https://kit.fontawesome.com/3ba5977250.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
 
-<body>
+	<body>
+		<section>
+			<div class="personal-information">
+				<span class="tag">Student</span>
+				<img
+					src="./resources/images/me.png"
+					alt="A picture of yours truly."
+				/>
+				<h1 class="name">Andrei-Paul Ionescu</h1>
+				<p class="location">Paris, France</p>
+				<p class="position">
+					Student in Computer Science at
+					<a
+						href="http://www.u-paris.fr"
+						class="university"
+					>
+						University of Paris</a
+					>
+				</p>
 
-   <section>
-       <div class="personal-information">
+				<div class="buttons">
+					<button class="primary-button">Message</button>
+					<a
+						href="./resources/resume/Andrei-Paul-Ionescu-Resume.pdf"
+						target="_blank"
+					>
+						<button class="secondary-button">Resume</button>
+					</a>
+				</div>
 
-           <span class="tag">Student</span>
-           <img src="./metadata/images/me.png" alt="A picture of yours truly.">
-           <h1 class="name">Andrei-Paul Ionescu</h1>
-           <p class="location">Paris, France</p>
-           <p class="position">Student in Computer Science at <a href="http://www.u-paris.fr" class="university">
-               University of Paris</a></p>
+				<div class="redirect-to-blog">
+					<a href="blog/index.php">
+						<button class="blog-button">Blog</button>
+					</a>
+				</div>
 
-           <div class="buttons">
-               <button class="primary-button">Message</button>
-              <a href="./metadata/resume/Andrei-Paul-Ionescu-Resume.pdf" target="_blank">
-                  <button class="secondary-button">Resume</button>
-              </a>
-           </div>
+				<div class="social">
+					<a
+						href="https://www.linkedin.com/in/andrei-paul-ionescu-545a3b200/"
+						><i class="fab fa-linkedin"></i
+					></a>
+					<a href="https://github.com/StonedHesus"
+						><i class="fab fa-github"></i
+					></a>
+				</div>
+			</div>
 
-           <div class="redirect-to-blog">
-                   <a href="blog/index.php">
-                       <button class="blog-button">Blog</button>
-                   </a>
-           </div>
+			<div class="skills">
+				<h2>Skills</h2>
+				<ul>
+					<li>Java</li>
+					<li>C</li>
+					<li>C++</li>
+					<li>Python</li>
+					<li>Swing</li>
+					<li>HTML5</li>
+					<li>CSS3</li>
+					<li>JS</li>
+					<li>PHP</li>
+					<li>MySql</li>
+					<li>Front-End Development</li>
+					<li>Back-End Development</li>
+					<li>Git</li>
+					<li>SCRUM</li>
+					<li>Theoretical computer science</li>
+					<li>Algorithmic conception</li>
+					<li>Algorithmic analysing</li>
+					<li>Calculus</li>
+					<li>Arithmetic</li>
+					<li>Public Speaking</li>
+					<li>Writing</li>
+					<li>Grammar</li>
+				</ul>
+			</div>
+		</section>
 
-           <div class="social">
-                <a href="https://www.linkedin.com/in/andrei-paul-ionescu-545a3b200/"><i class="fab fa-linkedin"></i></a>
-                <a href="https://github.com/StonedHesus"><i class="fab fa-github"></i></a>
-           </div>
+		<div class="overlay">
+			<div class="wrapper">
+				<h2>
+					In order to contact me <br />
+					do take the time to fill in this form!
+				</h2>
+				<a
+					href=""
+					class="close-button"
+					>&times;</a
+				>
+				<div class="content">
+					<div class="container">
+						<form
+							name="contact-me"
+							method="post"
+						>
+							<label for="firstname">Firstname</label>
+							<input
+								type="text"
+								name="firstname"
+								id="firstname"
+								placeholder="Firstname"
+								required="required"
+								autocomplete="off"
+							/>
+							<label for="lastname">Lastname</label>
+							<input
+								type="text"
+								name="lastname"
+								id="lastname"
+								placeholder="Lastname"
+								required="required"
+								autocomplete="off"
+							/>
+							<label for="mail">Email</label>
+							<input
+								type="email"
+								name="mail"
+								id="mail"
+								placeholder="Email"
+								required="required"
+								autocomplete="off"
+							/>
+							<label for="subject">Subject</label>
+							<input
+								type="text"
+								name="subject"
+								id="subject"
+								placeholder="Subject"
+								required="required"
+								autocomplete="off"
+							/>
+							<label for="organisation">Organisation</label>
+							<input
+								type="text"
+								name="organisation"
+								id="organisation"
+								placeholder="Organisation"
+								required="required"
+								autocomplete="off"
+							/>
+							<label for="message">Message</label>
+							<textarea
+								name="message"
+								id="message"
+								placeholder="Message"
+								required="required"
+								autocomplete="off"
+							></textarea>
+							<button
+								type="submit"
+								class="submit-button"
+							>
+								Submit
+							</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
 
-       </div>
-
-       <div class="skills">
-
-           <h2>Skills</h2>
-           <ul>
-               <li>Java</li>
-               <li>C</li>
-               <li>C++</li>
-               <li>Python</li>
-               <li>Swing</li>
-               <li>HTML5</li>
-               <li>CSS3</li>
-               <li>JS</li>
-               <li>PHP</li>
-               <li>MySql</li>
-               <li>Front-End Development</li>
-               <li>Back-End Development</li>
-               <li>Git</li>
-               <li>SCRUM</li>
-               <li>Theoretical computer science</li>
-               <li>Algorithmic conception</li>
-               <li>Algorithmic analysing</li>
-               <li>Calculus</li>
-               <li>Arithmetic</li>
-               <li>Public Speaking</li>
-               <li>Writing</li>
-               <li>Grammar</li>
-           </ul>
-       </div>
-   </section>
-
-   <div class="overlay">
-       <div class="wrapper">
-           <h2>In order to contact me <br> do take the time to fill in this form!</h2>
-           <a href="" class="close-button">&times;</a>
-           <div class="content">
-               <div class="container">
-                   <form name="contact-me" method="post">
-                       <label for="firstname">Firstname</label>
-                       <input type="text" name="firstname" id="firstname" placeholder="Firstname"
-                              required="required" autocomplete="off">
-                       <label for="lastname">Lastname</label>
-                       <input type="text" name="lastname" id="lastname"
-                              placeholder="Lastname" required="required" autocomplete="off">
-                       <label for="mail">Email</label>
-                       <input type="email" name="mail" id="mail"
-                              placeholder="Email" required="required" autocomplete="off">
-                       <label for="subject">Subject</label>
-                       <input type="text" name="subject" id="subject"
-                              placeholder="Subject" required="required" autocomplete="off">
-                       <label for="organisation">Organisation</label>
-                       <input type="text" name="organisation" id="organisation"
-                              placeholder="Organisation" required="required" autocomplete="off">
-                       <label for="message">Message</label>
-                       <textarea name="message" id="message"
-                                 placeholder="Message" required="required" autocomplete="off"></textarea>
-                       <button type="submit" class="submit-button">Submit</button>
-                   </form>
-               </div>
-           </div>
-       </div>
-   </div>
-
-<script src="./java-script/button.js">
-
-</script>
-
-</body>
-
+		<script src="./src/java-script/button.js"></script>
+	</body>
 </html>
